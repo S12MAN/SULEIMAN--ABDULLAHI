@@ -1,0 +1,20 @@
+Question 1: Why do you need Kubernetes in your application lifecycle?
+Kubernetes (K8s) is a platform that deploys, manages and scales containerized applications. After an application is packaged as a Docker image, Kubernetes helps run it reliably across servers.
+
+Deployment: Runs application containers in a cluster.
+ Self-healing: Replaces failed Pods and restarts failed containers according to their policies.
+ Scaling: Increases or decreases the number of application Pods.
+ Service discovery and traffic distribution: Gives Pods a stable network endpoint and distributes requests.
+ Rolling updates: Updates application versions gradually, with rollback options.
+ Resource management: Sets CPU and memory requests and limits.
+Example: If a web application has three replicas and one Pod fails, Kubernetes can create a replacement while the other Pods continue serving requests.
+Question 2: Which Kubernetes objects are needed and why?
+OBJECT PURPOSE
+Pod Runs one or more closely related containers.
+Deployment Maintains a desired number of Pods and manages updates.
+Service Provides stable networking to reach application Pods.
+Namespace Organizes resources within a cluster.
+Config Map Provides non-sensitive configuration.
+Secret Holds sensitive configuration; protect access and consider encryption.
+Ingress Routes external HTTP/HTTPS traffic when an Ingress controller is installed.
+Persistent Volume Claim (PVC) Requests durable storage for applications that need it.

@@ -1,0 +1,16 @@
+Git branching strategy 
+A Git branch is a safe space where a developer can work on a new feature without changing the main application. For example, if I am adding a login page, I create a feature branch, make my changes, and test them. When I finish, I open a pull request so my team can review the work. After the checks pass and the team approves it, the changes can be merged into the main branch. This helps keep the main codebase stable. 
+DevOps lifecycle 
+The DevOps lifecycle is the journey from an idea to an application people can use. First, the team plans what to build. Developers write the code, then the application is built and tested. Next, the team prepares a release and deploys it to the appropriate environment. After deployment, engineers operate and monitor the application, fixing problems and making improvements. These stages repeat as the software grows. 
+MLOps lifecycle 
+MLOps is similar to DevOps, but it focuses on machine learning models. Imagine a bank creating an AI system to detect fraud. The team collects transaction data, cleans and prepares it, and trains a model to recognize patterns. They evaluate the model on data it has not seen before, then deploy it if it meets requirements. Once running, they monitor accuracy and other issues. If patterns change, they may retrain and release an improved model. 
+Code promotion and testing 
+Code promotion means moving a tested software change through environments, usually development, staging, and production. In development, engineers create and check the feature. In staging, they test it in an environment similar to production. After required checks and approvals, the change can move to production for real users. Testing helps prevent bugs, security issues, and service failures. 
+Common types of testing 
+Unit testing: Checks individual pieces of code. 
+ Integration testing: Checks that different components work together. 
+Functional testing: Checks that features behave as expected. 
+Security testing: Looks for vulnerabilities and unsafe behavior. 
+Performance testing: Checks speed and stability under load. 
+User acceptance testing: Confirms the feature meets user or business needs. 
+

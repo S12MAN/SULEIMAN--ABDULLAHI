@@ -1,0 +1,9 @@
+Why build a Docker image? 
+A Docker image packages an application with its dependencies and runtime so it can run consistently in different environments. It makes deployment easier and supports portability and scaling. 
+
+What information is needed before writing a Dockerfile? 
+I need to know the programming language and version, framework, dependencies, startup command, application port, environment variables, external services, security requirements, and resource needs. 
+
+Explain the Docker image structure. 
+A Docker image is built from layers. For a Python application, these include the base image, Python runtime, installed dependencies, and application code. A Dockerfile defines how to build the image, and a container is a running instance of it.
+
